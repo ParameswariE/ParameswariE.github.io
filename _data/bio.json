@@ -28,27 +28,27 @@
     {
       "name": "Operating Systems",
       "keywords": [ "Windows", "MacOS", "Ubuntu", "Docker" ]
-    }
+    },
     {
       "name": "Automation Tools",
       "keywords": [ "Appium", "Selenium", "Chef", "Puppet", "Jenkins" ]
-    }
+    },
     {
       "name": "Databases",
       "keywords": [ "SQL", "PL/SQL", "MongoDB", "NoSQL" ]
-    }
+    },
     {
       "name": "Networking Concepts",
       "keywords": [  "DHCP", "OSI Models", "TCP/IP", "Wi-Fi Modules" ]
-    }
+    },
     {
       "name": "Web Development",
       "keywords": [ "HTML", "CSS", "Bootstrap", "Django", "NodeJS", "RESTful API", "Postman" ]
-    }
+    },
     {
       "name": "Cloud Platforms",
       "keywords": [ "AWS Services", "Google Cloud" ]
-    }
+    },
     {
       "name": "Embedded Systems",
       "keywords": [ "Keil", "ARM Cortex", "UART", "I2C" ]
@@ -97,9 +97,9 @@
         "Collaborated on feature testing for Google Access Points, contributing to product stability.",
         "Utilized Shell Scripting for job scheduling, enhancing operational efficiency.", 
         "Diagnosed and resolved complex DHCP server issues, ensuring uninterrupted network operations, and minimizing downtime for critical systems.", 
-        "Partnered with cross-functional teams to conduct comprehensive feature testing for Google Access Points, contributing to enhanced product stability and performance.", 
+        "Partnered with cross-functional teams to conduct comprehensive feature testing for Google Access Points, contributing to enhanced product stability and performance." 
       ]
-    }
+    },
     {
       "company": "Kernel Masters",
       "position": "Embedded Software Developer Intern",
