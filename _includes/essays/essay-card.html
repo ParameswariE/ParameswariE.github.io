@@ -1,30 +1,21 @@
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-sm-6 col-md-4">
-      <!-- Company Logo -->
-      <img src="{{ include.work.companyLogo }}" height="150px" class="rounded-start" alt="Company Logo">
+      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
     </div>
     <div class="col-sm-6 col-md-8">
       <div class="card-body">
-        <!-- Job Title and Duration -->
-        <h5 class="card-title">{{ include.work.jobTitle }} 
-          <small class="text-muted float-end">{{ include.work.duration }}</small>
-        </h5>
-        <!-- Company Name -->
-        <h6 class="card-subtitle text-muted mb-2">{{ include.work.companyName }}</h6>
-        <!-- Job Description -->
-        <p class="card-text">{{ include.work.description }}</p>
-        <!-- Skills/Tags -->
+        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
+        <p class="card-text">{{ include.page.summary }}</p>
         <p>
-          {% for skill in include.work.skills %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ skill }}</span>
+          {% for label in include.page.labels %}
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
         </p>
-        <!-- Link to Project or More Details -->
-        {% if include.work.projectUrl %}
-        <a href="{{ include.work.projectUrl }}" class="btn btn-outline-dark">View Project</a>
+        {% if page.projecturl %}
+        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
         {% else %}
-        <a href="{{ include.work.detailsUrl }}" class="btn btn-outline-dark">Learn More</a>
+        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
         {% endif %}
       </div>
     </div>
