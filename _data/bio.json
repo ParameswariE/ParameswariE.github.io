@@ -59,8 +59,8 @@
       "institution": "Gannon University, Erie, Pennsylvania, USA",
       "area": "Information Technology",
       "studyType": "Masters of Computer Science",
-      "startDate": "08/19/2022",
-      "endDate": "05/05/2024",
+      "startDate": "2022",
+      "endDate": "2024",
       "courses": [ "Object Oriented Programming in Java", "Database Management System", "Data Centric",
         "Introduction to Cloud Architecture",
         "NoSql and Restful API's", "Cybersecurity and Ethical Hacking"
@@ -72,8 +72,8 @@
       "company": "Gannon University",
       "position": "Graduate Assistant",
       "website": "https://www.gannon.edu",
-      "startDate": "Oct 2022",
-      "endDate": "May 2024",
+      "startDate": "2022",
+      "endDate": "2024",
       "summary": "GA for Dr.Jizou Tong",
       "highlights": [
         "Prepare materials, organize lectures, and assist students in SQL.",
@@ -88,8 +88,8 @@
       "company": "Capgemini",
       "position": "Software Engineer",
       "website": "https://www.capgemini.com",
-      "startDate": "Jan 2020",
-      "endDate": "Jul 2022",
+      "startDate": "2020",
+      "endDate": "2022",
       "summary": "Automation Testing for Google Access Points(GAP)",
       "highlights": [
         "Automated testing for Google Home Application, enhancing reliability and stability for user experience.",
@@ -104,8 +104,8 @@
       "company": "Kernel Masters",
       "position": "Embedded Software Developer Intern",
       "website": "https://www.kernelmasters.org",
-      "startDate": "Jun 2019",
-      "endDate": "Dec 2019",
+      "startDate": "2019",
+      "endDate": "2019",
       "summary": "Attendance Tracking Systems",
       "highlights": [
         "Developed an ARM Cortex-based automated attendance system using UART, I2C, and Wi-Fi modules with code written in Keil.",
