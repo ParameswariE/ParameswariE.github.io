@@ -6,109 +6,118 @@
     "email": "eddala.parameswari@gmail.com",
     "phone": "814-737-4882",
     "website": "https://parameswarie.github.io",
-    "summary": "Hi, I'm Parameswari. I'm a Software Engineer residing in the Pennsylvania, seeking new opportunities to contribure my skills and knowledge.",
+    "summary": "Hi, I'm a Software Engineer residing in the Pennsylvania, seeking new opportunities to contribure my skills and knowledge.",
     "location": { "address": "", "postalCode": "16507", "city": "Erie", "state": "Pennsylvania", "countryCode": "USA" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "https://github.com/ParameswariE" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/parameswari-eddala-166602209/" }
+      { "network": "github", "username": "ParameswariE", "url": "https://github.com/ParameswariE" },
+      { "network": "linkedin", "username": "Parameswari Eddala", "url": "https://www.linkedin.com/in/parameswari-eddala-166602209/" }
     ]
   },
   "interests": [
-    { "name": "AWS Cloud Services" },
+    { "name": "SQL" },
+    { "name": "Cloud Services" },
     { "name": "Linux" },
-    { "name": "Embedded Systems" }
+    { "name": "Embedded Systems" },
+    { "name": "Wi-Fi Technologies" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Programming Languages",
       "keywords": [ "C", "Python", "Java", "Javascript", "Assembly Language", "Shell Scripting" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "gcc" ]
+      "name": "Operating Systems",
+      "keywords": [ "Windows", "MacOS", "Ubuntu", "Docker" ]
+    }
+    {
+      "name": "Automation Tools",
+      "keywords": [ "Appium", "Selenium", "Chef", "Puppet", "Jenkins" ]
+    }
+    {
+      "name": "Databases",
+      "keywords": [ "SQL", "PL/SQL", "MongoDB", "NoSQL" ]
+    }
+    {
+      "name": "Networking Concepts",
+      "keywords": [  "DHCP", "OSI Models", "TCP/IP", "Wi-Fi Modules" ]
+    }
+    {
+      "name": "Web Development",
+      "keywords": [ "HTML", "CSS", "Bootstrap", "Django", "NodeJS", "RESTful API", "Postman" ]
+    }
+    {
+      "name": "Cloud Platforms",
+      "keywords": [ "AWS Services", "Google Cloud" ]
+    }
+    {
+      "name": "Embedded Systems",
+      "keywords": [ "Keil", "ARM Cortex", "UART", "I2C" ]
     }
   ],
   "education": [
     {
       "institution": "Gannon University, Erie, Pennsylvania, USA",
-      "area": "Computer Science",
-      "studyType": "MSCIS",
+      "area": "Information Technology",
+      "studyType": "Masters of Computer Science",
       "startDate": "08/19/2022",
       "endDate": "05/05/2024",
-      "courses": [ "DBMS", "Data Centric", "Introduction to Cloud Architecture", "NoSql and Restful API's"
+      "courses": [ "Object Oriented Programming in Java", "Database Management System", "Data Centric",
+        "Introduction to Cloud Architecture",
+        "NoSql and Restful API's", "Cybersecurity and Ethical Hacking"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Gannon University",
+      "position": "Graduate Assistant",
+      "website": "https://www.gannon.edu",
+      "startDate": "Oct 2022",
+      "endDate": "May 2024",
+      "summary": "GA for Dr.Jizou Tong",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Prepare materials, organize lectures, and assist students in SQL.",
+        "Supported academic tasks and provided assistance in SQL and Python programming.",
+        "Guided students through complex problem-solving techniques in programming and database management.",
+        "Managed administrative functions, ensuring operational efficiency in coursework delivery.",
+        "Evaluate assignments, provide constructive feedback, and grade exams, improving academic performance.",
+        "Guide and support undergraduate students through tutoring and mentoring academic growth."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Capgemini",
+      "position": "Software Engineer",
+      "website": "https://www.capgemini.com",
+      "startDate": "Jan 2020",
+      "endDate": "Jul 2022",
+      "summary": "Automation Testing for Google Access Points(GAP)",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Automated testing for Google Home Application, enhancing reliability and stability for user experience.",
+        "Developed Python scripts for task automation, improving efficiency and reducing manual effort.",
+        "Collaborated on feature testing for Google Access Points, contributing to product stability.",
+        "Utilized Shell Scripting for job scheduling, enhancing operational efficiency.", 
+        "Diagnosed and resolved complex DHCP server issues, ensuring uninterrupted network operations, and minimizing downtime for critical systems.", 
+        "Partnered with cross-functional teams to conduct comprehensive feature testing for Google Access Points, contributing to enhanced product stability and performance.", 
+      ]
+    }
+    {
+      "company": "Kernel Masters",
+      "position": "Embedded Software Developer Intern",
+      "website": "https://www.kernelmasters.org",
+      "startDate": "Jun 2019",
+      "endDate": "Dec 2019",
+      "summary": "Attendance Tracking Systems",
+      "highlights": [
+        "Developed an ARM Cortex-based automated attendance system using UART, I2C, and Wi-Fi modules with code written in Keil.",
+        "Interfaced fingerprint sensors and RTC modules to manage time-stamped data.",
+        "Delivered a cloud-integrated system for efficient attendance management."
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
+  "certificates": [
+    { "name": "Python Pro Bootcamp" },
+    { "name": "AWS Cloud Practitioner" },
+    { "name": "Web Development Bootcamp" },
+    { "name": "Industrial Training on Embedded Systems" }
   ]
 }
