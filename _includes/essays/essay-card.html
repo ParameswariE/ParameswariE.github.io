@@ -1,17 +1,32 @@
-<div class="col-md-6 col-lg-4" xmlns="http://www.w3.org/1999/html">
-  <div class="card h-100">
-    <div class="card-body">
-      <h5 class="card-title">{{ include.page.title }}</h5>
-      <p class="card-text"><small class="text-muted">{{ include.page.date | date_to_string }}</small></p>
-      <p class="card-text">{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
-      <p>
-        {% for label in include.page.labels %}
-        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-        {% endfor %}
-      </p>
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-sm-6 col-md-4">
+      <!-- Company Logo -->
+      <img src="{{ include.work.companyLogo }}" height="150px" class="rounded-start" alt="Company Logo">
     </div>
-    <div class="card-footer">
-      <div class="text-center"><a href="{% if page.essayurl %}{{ page.essayurl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}" class="btn btn-outline-dark">Read More</a></div>
+    <div class="col-sm-6 col-md-8">
+      <div class="card-body">
+        <!-- Job Title and Duration -->
+        <h5 class="card-title">{{ include.work.jobTitle }} 
+          <small class="text-muted float-end">{{ include.work.duration }}</small>
+        </h5>
+        <!-- Company Name -->
+        <h6 class="card-subtitle text-muted mb-2">{{ include.work.companyName }}</h6>
+        <!-- Job Description -->
+        <p class="card-text">{{ include.work.description }}</p>
+        <!-- Skills/Tags -->
+        <p>
+          {% for skill in include.work.skills %}
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ skill }}</span>
+          {% endfor %}
+        </p>
+        <!-- Link to Project or More Details -->
+        {% if include.work.projectUrl %}
+        <a href="{{ include.work.projectUrl }}" class="btn btn-outline-dark">View Project</a>
+        {% else %}
+        <a href="{{ include.work.detailsUrl }}" class="btn btn-outline-dark">Learn More</a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
