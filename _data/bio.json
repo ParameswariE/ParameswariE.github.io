@@ -1,45 +1,41 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Parameswari Eddala",
+    "label": "Masters of Computer Science",
+    "picture": "https://avatars.githubusercontent.com/u/153848700?s=400&u=91f046f08edca3bb0e4db5bd4923877cda5647e4&v=4",
+    "email": "eddala.parameswari@gmail.com",
+    "phone": "814-737-4882",
+    "website": "https://parameswarie.github.io",
+    "summary": "Hi, I'm Parameswari. I'm a Software Engineer residing in the Pennsylvania, seeking new opportunities to contribure my skills and knowledge.",
+    "location": { "address": "", "postalCode": "16507", "city": "Erie", "state": "Pennsylvania", "countryCode": "USA" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mmaluhia", "url": "https://github.com/ParameswariE" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/parameswari-eddala-166602209/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "AWS Cloud Services" },
+    { "name": "Linux" },
+    { "name": "Embedded Systems" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "Python", "Java", "Javascript", "Assembly Language", "Shell Scripting" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "gcc" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
+      "institution": "Gannon University, Erie, Pennsylvania, USA",
+      "area": "Computer Science",
+      "studyType": "MSCIS",
+      "startDate": "08/19/2022",
+      "endDate": "05/05/2024",
+      "courses": [ "DBMS", "Data Centric", "Introduction to Cloud Architecture", "NoSql and Restful API's"
       ]
     }
   ],
