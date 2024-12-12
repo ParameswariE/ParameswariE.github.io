@@ -1,35 +1,33 @@
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <!-- Company Logo -->
-      <img src="{{ include.work.companyLogo }}" height="150px" class="rounded-start" alt="Company Logo">
-    </div>
-    <div class="col-sm-6 col-md-8">
-      <div class="card-body">
-        <!-- Job Title and Duration -->
-        <h5 class="card-title">
-          {{ include.work.jobTitle }}
-          <small class="text-muted float-end">{{ include.work.duration }}</small>
-        </h5>
-        <!-- Company Name -->
-        <p class="card-text">
-          <strong>{{ include.work.companyName }}</strong>
-        </p>
-        <!-- Job Description -->
-        <p class="card-text">{{ include.work.description }}</p>
-        <!-- Skills -->
-        <p>
-          {% for skill in include.work.skills %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ skill }}</span>
-          {% endfor %}
-        </p>
-        <!-- Links -->
-        {% if include.work.projectUrl %}
-        <a href="{{ include.work.projectUrl }}" class="btn btn-outline-dark">View Project</a>
-        {% else %}
-        <a href="{{ include.work.detailsUrl }}" class="btn btn-outline-dark">Learn More</a>
-        {% endif %}
+<div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <h1 class="display-4 text-start">Projects</h1>
       </div>
     </div>
+
+    <div class="vstack gap-3">
+      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+      {% for page in project_pages %}
+        {% unless page.draft %}
+          {% include projects/project-card.html page=page %}
+        {% endunless %}
+        {% if forloop.index == include.limit %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% assign not_draft = 0 %}
+      {% for page in project_pages %}
+      {% unless page.draft %}
+        {% assign not_draft = not_draft | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if not_draft > include.limit %}
+      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects</a></p>
+    {% endif %}
+
   </div>
 </div>
