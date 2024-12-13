@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/png-clipart-job-hunting-employment-computer-icons-online-job-search-miscellaneous-text.png
 title: "Automating Job Application Across Various Platforms"
 date: 2024
 published: true
