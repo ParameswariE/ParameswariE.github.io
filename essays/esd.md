@@ -3,8 +3,7 @@ layout: essay
 type: essay
 title: "Embedded Software Developer"
 # All dates must be YYYY-MM-DD format!
-start date: 2019
-end date: 2019
+date: 2019
 published: true
 summary: "Designed and developed an ARM Cortex-based automated attendance system utilizing UART, I2C, and Wi-Fi protocols. Integrated fingerprint sensors and RTC modules to enable biometric authentication and time-stamped data management. Delivered a cloud-connected system for efficient and secure attendance tracking, ensuring seamless data synchronization and real-time monitoring."
 labels:
