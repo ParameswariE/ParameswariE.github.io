@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+image: img/kernel-masters.png
 title: "Embedded Software Developer"
 # All dates must be YYYY-MM-DD format!
 date: 2019
