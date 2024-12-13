@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/fetured-860x280.jpg
 title: "Attendance Tracking System"
 date: 2019
 published: true
