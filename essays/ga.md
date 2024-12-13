@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+image: img/gannon-university.gif
 title: "Graduate Assistant"
 # All dates must be YYYY-MM-DD format!
 date: 2022
