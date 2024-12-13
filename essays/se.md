@@ -19,6 +19,6 @@ labels:
   - Git
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="img/capgemini.png" class="img-thumbnail" >
+<div class="col-lg-4">
+  <img width="200px" src="img/capgemini.png" class="d-block mx-auto" >
 </div>
