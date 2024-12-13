@@ -6,12 +6,12 @@
     "email": "eddala.parameswari@gmail.com",
     "phone": "814-737-4882",
     "website": "https://parameswarie.github.io",
-    "summary": "Hi, I'm a Software Engineer residing in the Pennsylvania, seeking new opportunities to contribure my skills and knowledge.",
     "location": { "address": "", "postalCode": "16507", "city": "Erie", "state": "Pennsylvania", "countryCode": "USA" },
     "profiles": [
       { "network": "github", "username": "ParameswariE", "url": "https://github.com/ParameswariE" },
       { "network": "linkedin", "username": "Parameswari Eddala", "url": "https://www.linkedin.com/in/parameswari-eddala-166602209/" }
-    ]
+    ],
+    "summary": "Hi, I'm a Software Engineer residing in the Pennsylvania, seeking new opportunities to contribure my skills and knowledge."
   },
   "interests": [
     { "name": "SQL" },
