@@ -4,14 +4,19 @@ type: project
 image: img/cotton/cotton-square.png
 title: "Attendance Tracking System"
 date: 2019
-published: false
+published: true
 labels:
-  - Lisp
-  - GitHub
+  - ARM Cortex M4
+  - GT511C3 Fingerprint Sensor
+  - UART, I2C Protocols
+  - Wi-Fi Module
+  - RTC Module
 summary: "The project involves the development of an **Automated Attendance Tracking System** using an ARM Cortex-M4 microcontroller. The system leverages peripherals such as fingerprint sensors, RTC modules, and Wi-Fi modules to efficiently capture, process, and store attendance data. This innovative solution eliminates manual attendance processes by automating student identification and record-keeping. With cloud integration, the system ensures seamless storage and accessibility of attendance data in real-time."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="text-center p-4">
+  <img class="img-fluid" src="../img/cotton/cotton-header.png">
+</div>
 
 ## Detailed Description
 
