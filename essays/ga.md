@@ -6,13 +6,8 @@ title: "Graduate Assistant"
 start date: 2022
 end date: 2024
 published: true
+summary: "As a Graduate Assistant, provided comprehensive academic support by preparing materials, organizing lectures, and assisting students in SQL and Python programming. Guided students through complex problem-solving techniques in programming and database management while evaluating assignments, grading exams, and offering constructive feedback to enhance academic performance. Additionally, managed administrative functions to ensure efficient coursework delivery and mentored undergraduate students to foster their academic and professional growth."
 labels:
   - SQL
   - Python
 ---
-• Prepare materials, organize lectures, and assist students in SQL.
-• Supported academic tasks and provided assistance in SQL and Python programming.
-• Guided students through complex problem-solving techniques in programming and database management.
-• Managed administrative functions, ensuring operational efficiency in coursework delivery.
-• Evaluate assignments, provide constructive feedback, and grade exams, improving academic performance.
-• Guide and support undergraduate students through tutoring and mentoring academic growth.
