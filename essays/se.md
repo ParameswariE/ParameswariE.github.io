@@ -20,5 +20,5 @@ labels:
 ---
 
 <div class="col-lg-4">
-  <img width="200px" src="img/capgemini.png" class="d-block mx-auto" >
+  <img width="200px" src="../img/capgemini.png" class="d-block mx-auto" >
 </div>
