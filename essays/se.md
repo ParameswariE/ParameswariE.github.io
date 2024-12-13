@@ -18,3 +18,7 @@ labels:
   - Wireshark
   - Git
 ---
+
+<div class="text-center p-4">
+  <img width="200px" src="img/capgemini.png" class="img-thumbnail" >
+</div>
