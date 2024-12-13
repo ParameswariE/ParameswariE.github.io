@@ -65,21 +65,4 @@ The primary goal of this project was to create a smart and efficient attendance 
 - Ensured real-time availability of attendance records through cloud storage.
 - Enhanced system reliability with error-free student identification and time-accurate records.
 
-## Portfolio Presentation
-
-### Title: Automated Attendance Tracking System
-**Objective**: To create an intelligent, automated attendance management solution leveraging biometric technology and cloud integration.
-
-**Technologies**:
-- ARM Cortex-M4
-- GT-511C3 Fingerprint Sensor
-- UART, I2C Protocols
-- Wi-Fi Module
-- RTC Module
-
-**Project Highlights**:
-1. Accurate fingerprint-based student identification.
-2. Real-time attendance tracking with timestamps.
-3. Secure cloud-based data storage and accessibility.
-
 This project showcases advanced hardware and software integration skills, highlighting expertise in embedded systems and real-time data handling.
