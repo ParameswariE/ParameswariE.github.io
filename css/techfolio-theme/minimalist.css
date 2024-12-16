@@ -1,55 +1,104 @@
-/* Skyblue Theme: modifies the default theme to use blue in various places. */
-
-/* Use Open Sans as the default font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
-
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
-:root {
-  --primary-blue: #2f8ed0; /* Vibrant Blue */
-  --secondary-blue: #076db3; /* Deep Blue */
-  --light-blue: #e6f7ff; /* Light Blue Background */
-  --font-color: #333333; /* Dark Gray Text */
-  --hover-color: #1b6fa9; /* Hover Blue */
-  --background-color: #ffffff; /* White Background */
-  --font-family: "Open Sans", sans-serif;
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
-h1,h2,h3,h4,h5 {
-  color: var(--tf-blue1);
-  font-family: Rubik;
+/* Header Styles */
+header {
+    background: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Format social media icons */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-blue1);
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
 }
 
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
-a {
-  text-decoration: none;
+header .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s;
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
+header .nav-links li a:hover {
+    color: #2f8ed0;
 }
 
-.rounded-circle {
-  border-color: var(--tf-blue1);
-  border-style: solid;
-  border-width: 1px;
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text .highlight {
+    color: #2f8ed0;
+    font-weight: bold;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #2f8ed0;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.social-links a:hover {
+    background: #076db3;
+}
+
+.contact-button {
+    background: #ffffff;
+    color: #2f8ed0;
+    border: 2px solid #2f8ed0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background: #2f8ed0;
+    color: #ffffff;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 350px;
+    border-radius: 10px;
 }
