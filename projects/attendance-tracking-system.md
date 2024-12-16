@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/1425.SW+infrastructure.png
+image: img/H32e41c6e639845ce8972467c05d1b4b65.jpg_640x640q90.jpg.avif
 title: "Attendance Tracking System"
 date: 2019
 published: true
@@ -15,7 +15,7 @@ summary: "The project involves the development of an **Automated Attendance Trac
 ---
 
 <div class="text-center p-4">
-  <img class="img-fluid" src="../img/cotton/cotton-header.png">
+  <img class="img-fluid" src="img/1425.SW+infrastructure.png">
 </div>
 
 ## Detailed Description
