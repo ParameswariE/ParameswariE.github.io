@@ -24,10 +24,10 @@ summary: "This project focuses on automating the job application process to stre
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-• Automated the job application process to save time and effort for job seekers, enabling them to apply to more positions efficiently.
-• Utilized Python for scripting and GitHub for version control.
-• Developed the front-end using HTML, Bootstrap, and React.js.
-• Implemented the back-end with the Django framework.
+• Automated the job application process to save time and effort for job seekers, enabling them to apply to more positions efficiently.\n
+• Utilized Python for scripting and GitHub for version control.\n
+• Developed the front-end using HTML, Bootstrap, and React.js.\n
+• Implemented the back-end with the Django framework.\n
 • Leveraged Selenium WebDriver for automating web interactions.
 • Employed a Relational Database Management System (RDBMS) for data storage.
 • Pre-filled job application forms using stored user data to ensure consistency and accuracy.
