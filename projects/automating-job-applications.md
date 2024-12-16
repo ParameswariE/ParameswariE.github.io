@@ -19,10 +19,10 @@ summary: "This project focuses on automating the job application process to stre
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/job-application/Picture1.png" class="img-thumbnail" >
-  <img width="200px" src="../img/job-application/Picture2.png" class="img-thumbnail" >
-  <img width="200px" src="../img/job-application/Picture3.png" class="img-thumbnail" >
-  <img width="200px" src="../img/job-application/Picture4.png" class="img-thumbnail" >
+  <img width="400px" src="../img/job-application/Picture1.png" class="img-thumbnail" >
+  <img width="400px" src="../img/job-application/Picture2.png" class="img-thumbnail" >
+  <img width="400px" src="../img/job-application/Picture3.png" class="img-thumbnail" >
+  <img width="400px" src="../img/job-application/Picture4.png" class="img-thumbnail" >
 
 </div>
 
