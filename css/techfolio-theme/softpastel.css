@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #ff6f61; /* Coral */
+  --secondary-color: #6baed6; /* Light Blue */
+  --accent-color: #fdd835; /* Yellow */
+  --background-color: #ffffff;
+  --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
