@@ -3,6 +3,10 @@ layout: default
 ---
 <div style="display: flex; flex-direction: column; min-height: 100vh;">
   {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
+  <main style="flex: 1;">
+    {{ content }}
+  </main>
+  <footer style="position: relative; bottom: 0; width: 100%; background-color: var(--footer-bg-color);">
+    {% include footer.html %}
+  </footer>
 </div>
