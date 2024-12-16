@@ -1,15 +1,17 @@
-<div style="background-color: var(--tf-page-bg-color); min-height: 100vh;" class="d-flex align-items-center">
+<div style="background-color: var(--tf-page-bg-color); min-height: 100vh;" class="d-flex justify-content-center align-items-center">
   <div class="container">
     <div class="row justify-content-center align-items-center text-center">
+      <!-- Profile Image -->
       <div class="col-lg-4">
-        <img width="200px" height="200px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
+        <img width="400px" height="400px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle" style="object-fit: cover; border: 5px solid white;">
       </div>
+      <!-- Text Section -->
       <div class="col-lg-8">
         <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
         <p class="lead">{{ site.data.bio.basics.label }}</p>
         
-        <div class="row justify-content-center">
-
+        <!-- Social Links -->
+        <div class="row justify-content-center mt-4">
           {% if site.data.bio.basics.website %}
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col-auto">
@@ -31,8 +33,9 @@
               {% include about/social.html url=url name=name %}
             </div>
           {% endfor %}
-
         </div>
+
+        <!-- Summary Section -->
         <p class="lead mt-4">{{ site.data.bio.basics.summary }}</p>
       </div>
     </div>
