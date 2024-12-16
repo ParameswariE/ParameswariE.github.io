@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: experience
+type: experience
 image: img/capgemini.png
 title: "Software Engineer"
 # All dates must be YYYY-MM-DD format!
