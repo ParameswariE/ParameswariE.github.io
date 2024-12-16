@@ -1,7 +1,7 @@
 ---
 layout: experience
 type: experience
-image: img/image.jpg
+image: img/LogoRayBelieve_300.png
 title: "Graduate Assistant"
 # All dates must be YYYY-MM-DD format!
 date: 2022
