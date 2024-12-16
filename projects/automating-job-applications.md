@@ -19,22 +19,24 @@ summary: "This project focuses on automating the job application process to stre
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/job-application/Picture1.png" class="img-thumbnail" >
+  <img width="200px" src="../img/job-application/Picture2.png" class="img-thumbnail" >
+  <img width="200px" src="../img/job-application/Picture3.png" class="img-thumbnail" >
+  <img width="200px" src="../img/job-application/Picture4.png" class="img-thumbnail" >
+
 </div>
 
-• Automated the job application process to save time and effort for job seekers, enabling them to apply to more positions efficiently.\n
-• Utilized Python for scripting and GitHub for version control.\n
-• Developed the front-end using HTML, Bootstrap, and React.js.\n
-• Implemented the back-end with the Django framework.\n
-• Leveraged Selenium WebDriver for automating web interactions.
-• Employed a Relational Database Management System (RDBMS) for data storage.
-• Pre-filled job application forms using stored user data to ensure consistency and accuracy.
-• Automated the submission process for job applications across multiple platforms.
+• Automated the job application process to save time and effort for job seekers, enabling them to apply to more positions efficiently.<br>
+• Utilized Python for scripting and GitHub for version control.<br>
+• Developed the front-end using HTML, Bootstrap, and React.js.<br>
+• Implemented the back-end with the Django framework.<br>
+• Leveraged Selenium WebDriver for automating web interactions.<br>
+• Employed a Relational Database Management System (RDBMS) for data storage.<br>
+• Pre-filled job application forms using stored user data to ensure consistency and accuracy.<br>
+• Automated the submission process for job applications across multiple platforms.<br>
 • Contributed to the development of cloud-native applications using Kubernetes and Docker, enhancing platform
-scalability and performance.
+scalability and performance.<br>
 • Worked on automating machine learning workflows using MLOps frameworks, significantly reducing model
-deployment times.
+deployment times.<br>
 
 You can learn more at the GitHub [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
