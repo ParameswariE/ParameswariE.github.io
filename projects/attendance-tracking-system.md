@@ -11,7 +11,7 @@ labels:
   - UART, I2C Protocols
   - Wi-Fi Module
   - RTC Module
-summary: "The project involves the development of an "Automated Attendance Tracking System" using an ARM Cortex-M4 microcontroller. The system leverages peripherals such as fingerprint sensors, RTC modules, and Wi-Fi modules to efficiently capture, process, and store attendance data. This innovative solution eliminates manual attendance processes by automating student identification and record-keeping. With cloud integration, the system ensures seamless storage and accessibility of attendance data in real-time."
+summary: "The project involves the development of an Automated Attendance Tracking System using an ARM Cortex-M4 microcontroller. The system leverages peripherals such as fingerprint sensors, RTC modules, and Wi-Fi modules to efficiently capture, process, and store attendance data. This innovative solution eliminates manual attendance processes by automating student identification and record-keeping. With cloud integration, the system ensures seamless storage and accessibility of attendance data in real-time."
 ---
 
 <div class="text-center p-4">
