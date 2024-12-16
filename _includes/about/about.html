@@ -1,25 +1,25 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+<div style="background-color: var(--tf-page-bg-color); min-height: 100vh;" class="d-flex align-items-center">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center align-items-center text-center">
       <div class="col-lg-4">
-          <img width="400px" height="400px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
+        <img width="200px" height="200px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
       </div>
       <div class="col-lg-8">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
+        <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
+        <p class="lead">{{ site.data.bio.basics.label }}</p>
         
         <div class="row justify-content-center">
 
           {% if site.data.bio.basics.website %}
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col-auto text-center">
+            <div class="col-auto">
               {% include about/social.html url=url name='house' %}
             </div>
           {% endif %}
 
           {% if site.data.bio.basics.email %}
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col-auto text-center">
+            <div class="col-auto">
               {% include about/social.html url=url name='envelope' %}
             </div>
           {% endif %}
@@ -27,21 +27,13 @@
           {% for profile in site.data.bio.basics.profiles %}
             {% capture url %}{{ profile.url }}{% endcapture %}
             {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col-auto text-center">
+            <div class="col-auto">
               {% include about/social.html url=url name=name %}
             </div>
           {% endfor %}
 
-            <p class="lead text-justify">{{ site.data.bio.basics.summary }}</p>
-            <!--
-            <p class="lead m-0">
-            Interests:
-            {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-            {% endfor %}
-            </p>
-            -->
         </div>
+        <p class="lead mt-4">{{ site.data.bio.basics.summary }}</p>
       </div>
     </div>
   </div>
