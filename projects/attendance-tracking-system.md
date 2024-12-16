@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/H32e41c6e639845ce8972467c05d1b4b65.jpg_640x640q90.jpg.avif
+image: img/1425.SW+infrastructure.png
 title: "Attendance Tracking System"
 date: 2019
 published: true
