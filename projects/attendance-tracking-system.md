@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/fetured-860x280.jpg
+image: img/H32e41c6e639845ce8972467c05d1b4b65.jpg_640x640q90.jpg.avif
 title: "Attendance Tracking System"
 date: 2019
 published: true
