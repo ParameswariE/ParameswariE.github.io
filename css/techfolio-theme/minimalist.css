@@ -1,34 +1,55 @@
+/* Skyblue Theme: modifies the default theme to use blue in various places. */
+
+/* Use Open Sans as the default font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --primary-color: #000000; /* Black */
-  --secondary-color: #ffffff; /* White */
-  --accent-color: #777777; /* Light Gray */
-  --background-color: #f9f9f9;
-  --font-family: 'Roboto', sans-serif;
+  --primary-blue: #2f8ed0; /* Vibrant Blue */
+  --secondary-blue: #076db3; /* Deep Blue */
+  --light-blue: #e6f7ff; /* Light Blue Background */
+  --font-color: #333333; /* Dark Gray Text */
+  --hover-color: #1b6fa9; /* Hover Blue */
+  --background-color: #ffffff; /* White Background */
+  --font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-color: var(--background-color);
-  color: var(--primary-color);
-  font-family: var(--font-family);
-  margin: 0;
-  padding: 0;
+h1,h2,h3,h4,h5 {
+  color: var(--tf-blue1);
+  font-family: Rubik;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
-  color: var(--primary-color);
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-blue1);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.2s;
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
 }
 
 a {
-  color: var(--accent-color);
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--primary-color);
+@media (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-brand-mobile {
+    display: inline;
+  }
 }
 
-.navbar {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+.rounded-circle {
+  border-color: var(--tf-blue1);
+  border-style: solid;
+  border-width: 1px;
 }
