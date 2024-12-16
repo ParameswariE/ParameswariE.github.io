@@ -15,7 +15,7 @@ summary: "The project involves the development of an **Automated Attendance Trac
 ---
 
 <div class="text-center p-4">
-  <img class="img-fluid" src="img/1425.SW+infrastructure.png">
+  <img class="img-fluid" src="../img/1425.SW+infrastructure.png">
 </div>
 
 ## Detailed Description
