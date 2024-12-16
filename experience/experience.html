@@ -1,0 +1,39 @@
+---
+title: Work Experience
+layout: home
+---
+
+
+<div style="background-color: var(--tf-experience-bg-color)" class="bg-gradient py-3" id="experience">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <h1 class="display-4 text-start">Work Experience</h1>
+      </div>
+    </div>
+
+    <div class="vstack gap-3">
+      {% assign experience_pages = site.pages | where: "type", "experience" | sort: "date" | reverse %}
+      {% for page in experience_pages %}
+        {% unless page.draft %}
+          {% include experience/experience-card.html page=page %}
+        {% endunless %}
+        {% if forloop.index == include.limit %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% assign not_draft = 0 %}
+      {% for page in experience_pages %}
+      {% unless page.draft %}
+        {% assign not_draft = not_draft | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if not_draft > include.limit %}
+      <p class="text-center pt-4"><a href="{{ site.baseurl}}/experience/">See all {{ not_draft }} experience</a></p>
+    {% endif %}
+
+  </div>
+</div>
