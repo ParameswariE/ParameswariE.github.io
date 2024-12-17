@@ -6,36 +6,30 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-primary: #4CAF50; /* A clean and vibrant green for highlights and buttons */
-  --tf-secondary: #2E3A46; /* A dark slate for headers or text */
-  --tf-accent1: #FF9800; /* A warm orange for accents and CTAs */
-  --tf-accent2: #03A9F4; /* A calming blue for links or subtle highlights */
-  --tf-neutral1: #F5F5F5; /* A soft off-white for backgrounds */
-  --tf-neutral2: #E0E0E0; /* A light gray for dividers and subtle UI elements */
-  --tf-dark: #212121; /* A rich dark gray for text or footer backgrounds */
-  --tf-light: #FFFFFF; /* Pure white for clean layouts and contrast */
-  
-  /* Fonts */
-  --bs-font-sans-serif: "Poppins", sans-serif;
-  --bs-link-color: var(--tf-accent2);
-  --tf-pill-bg: var(--tf-primary);
-  --tf-icon-fill: var(--tf-accent1);
-  --tf-icon-hover: var(--tf-primary);
-  --tf-page-bg-color: var(--tf-neutral1);
-  --tf-footer-bg-color: var(--tf-dark);
+  --tf-blue1: #076db3;
+  --tf-blue2: #1b6fa9;
+  --tf-blue3: #2f8ed0;
+  --tf-blue4: #bde3f0;
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-link-color: var(--tf-blue1);
+  --tf-pill-bg: var(--tf-blue3);
+  --tf-icon-fill: var(--tf-blue1);
+  --tf-icon-hover: var(--tf-blue3);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--tf-blue4);
 
 }
 /*
   --tf-projects-bg-color: var(--tf-blue4);
   --tf-experience-bg-color: var(--tf-blue4);
 }
-
+*/
 h1,h2,h3,h4,h5 {
   color: var(--tf-blue1);
   font-family: Rubik;
 }
 
-Format social media icons 
+/* Format social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-blue1);
@@ -57,46 +51,14 @@ a {
   .navbar-brand {
     display: none;
   }
-*/
-h1, h2, h3, h4, h5 {
-  color: var(--tf-primary); /* Updated to primary green for headings */
-  font-family: "Poppins", sans-serif; /* Modern and clean font */
-}
-
-/* Format social media icons */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-secondary); /* Updated to dark slate for social icons */
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
-}
-
-.tf-social:hover {
-  fill: var(--tf-accent1); /* Updated to warm orange for hover effect */
-}
-
-a {
-  text-decoration: none;
-  color: var(--tf-accent2); /* Calming blue for links */
-}
-
-a:hover {
-  color: var(--tf-accent1); /* Warm orange for link hover state */
-}
-
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
   .navbar-brand-mobile {
     display: inline;
   }
 }
 
 .rounded-circle {
-  border-color: var(--tf-primary); /* Updated to primary green for profile image border */
+  border-color: var(--tf-blue1);
   border-style: solid;
-  border-width: 2px; /* Slightly thicker border for better visibility */
+  border-width: 1px;
 }
+
