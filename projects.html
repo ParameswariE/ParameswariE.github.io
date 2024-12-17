@@ -1,3 +1,8 @@
+---
+title: Projects
+layout: home
+---
+
 <div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
   <div class="container">
     <div class="row mb-3">
@@ -5,7 +10,6 @@
         <h1 class="display-4 text-start">Projects2222</h1>
       </div>
     </div>
-
     <div class="vstack gap-3">
       {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
       {% for page in project_pages %}
