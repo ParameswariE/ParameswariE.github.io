@@ -38,4 +38,4 @@ scalability and performance.<br>
 • Worked on automating machine learning workflows using MLOps frameworks, significantly reducing model
 deployment times.<br>
 
-You can learn more at the GitHub [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+You can learn more at the GitHub https://github.com/ParameswariE/Automating-Job-Application
