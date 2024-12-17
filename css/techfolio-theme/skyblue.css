@@ -10,6 +10,8 @@
   --tf-blue2: #1b6fa9;
   --tf-blue3: #2f8ed0;
   --tf-blue4: #bde3f0;
+  --tf-accent2: #03A9F4;
+  --tf-accent1: #FF9800;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-blue1);
   --tf-pill-bg: var(--tf-blue3);
@@ -26,7 +28,7 @@
 */
 h1,h2,h3,h4,h5 {
   color: var(--tf-blue1);
-  font-family: Rubik;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Format social media icons */
@@ -40,11 +42,15 @@ h1,h2,h3,h4,h5 {
 }
 
 .tf-social:hover {
-  fill: var(--tf-icon-hover);
+  fill: var(--tf-accent1);
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--tf-accent1); /* Warm orange for link hover state */
 }
 
 @media (max-width: 500px) {
