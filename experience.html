@@ -10,5 +10,50 @@ layout: home
         <h1 class="display-4 text-start">Work Experience2</h1>
       </div>
     </div>
+  <div class="vstack gap-3">
+      {% assign experience_pages = site.pages | where: "type", "experience" | sort: "date" | reverse %}
+      {% for page in experience_pages %}
+        {% unless page.draft %}
+          <div class="card mb-3">
+            <div class="row g-0">
+              <!-- Image Section -->
+              <div class="col-sm-6 col-md-4">
+                <img src="{{ site.baseurl }}/{{ page.image }}" height="180px" class="rounded-start">
+              </div>
+              <!-- Text Section -->
+              <div class="col-sm-6 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{ page.title }} <small class="text-muted float-end">{{ page.date }}</small></h5>
+                  <p class="card-text text-justify">{{ page.summary }}</p>
+                  <p>
+                    {% for label in page.labels %}
+                      <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+                    {% endfor %}
+                  </p>
+                  {% if page.experienceurl %}
+                    <a href="{{ page.experienceurl }}" class="btn btn-outline-dark">Experience Site</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endunless %}
+        {% if forloop.index == include.limit %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% assign not_draft = 0 %}
+    {% for page in experience_pages %}
+      {% unless page.draft %}
+        {% assign not_draft = not_draft | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+    <!-- Uncomment if needed
+    {% if not_draft > include.limit %}
+      <p class="text-center pt-4"><a href="{{ site.baseurl}}/experience/">See all {{ not_draft }} experience</a></p>
+    {% endif %}
+    -->
   </div>
 </div>
