@@ -1,45 +1,45 @@
 <main style="flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; background-color: var(--tf-page-bg-color);">
-<div style="background-color: var(--tf-page-bg-color);" class="d-flex align-items-center" style="min-height: calc(100vh - var(--header-height) - var(--footer-height));">
-  <div class="container">
-    <div class="row justify-content-center align-items-center text-center">
-      <!-- Profile Image -->
-      <div class="col-lg-4">
-        <img width="300px" height="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle" style="object-fit: cover; border: 5px solid white;">
-      </div>
-      <!-- Text Section -->
-      <div class="col-lg-8">
-        <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead">{{ site.data.bio.basics.label }}</p>
-        
-        <!-- Social Links -->
-        <div class="row justify-content-center mt-4">
-          {% if site.data.bio.basics.website %}
-            {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col-auto">
-              {% include about/social.html url=url name='house' %}
-            </div>
-          {% endif %}
-
-          {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col-auto">
-              {% include about/social.html url=url name='envelope' %}
-            </div>
-          {% endif %}
-
-          {% for profile in site.data.bio.basics.profiles %}
-            {% capture url %}{{ profile.url }}{% endcapture %}
-            {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col-auto">
-              {% include about/social.html url=url name=name %}
-            </div>
-          {% endfor %}
+  <div style="background-color: var(--tf-page-bg-color);" class="d-flex align-items-center" style="min-height: calc(100vh - var(--header-height) - var(--footer-height));">
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <!-- Profile Image -->
+        <div class="col-lg-4">
+          <img width="300px" height="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle" style="object-fit: cover; border: 5px solid white;">
         </div>
+        <!-- Text Section -->
+        <div class="col-lg-8">
+          <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
+          <p class="lead">{{ site.data.bio.basics.label }}</p>
+          
+          <!-- Social Links -->
+          <div class="row justify-content-center mt-4">
+            {% if site.data.bio.basics.website %}
+              {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
+              <div class="col-auto">
+                {% include about/social.html url=url name='house' %}
+              </div>
+            {% endif %}
+  
+            {% if site.data.bio.basics.email %}
+              {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+              <div class="col-auto">
+                {% include about/social.html url=url name='envelope' %}
+              </div>
+            {% endif %}
 
-        <!-- Summary Section -->
-        <p class="lead mt-4 text-align: center">{{ site.data.bio.basics.summary }}</p>
+            {% for profile in site.data.bio.basics.profiles %}
+              {% capture url %}{{ profile.url }}{% endcapture %}
+              {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+              <div class="col-auto">
+                {% include about/social.html url=url name=name %}
+              </div>
+            {% endfor %}
+          </div>
+  
+          <!-- Summary Section -->
+          <p class="lead mt-4 text-align: center">{{ site.data.bio.basics.summary }}</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </main>
