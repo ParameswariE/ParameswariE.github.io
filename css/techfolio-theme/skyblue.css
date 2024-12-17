@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5 {
   font-family: Rubik;
 }
 
-/* Format social media icons */
+Format social media icons 
 .tf-social {
   display: inline-block;
   fill: var(--tf-blue1);
